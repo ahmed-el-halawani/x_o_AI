@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_light"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/table"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.79"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.551">
+
+        <Button
+                android:id="@+id/pouse"
+                android:layout_width="0dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/ic_media_pause"
+                android:fontFamily="@font/aclonica"
+                android:onClick="pauseGame"
+                android:textSize="56sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toTopOf="@+id/table"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.813"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.275"
+                tools:background="@android:drawable/ic_media_pause"/>
+    </LinearLayout>
+    <TableLayout
+            android:id="@+id/table"
+            android:layout_width="wrap_content"
+            android:layout_height="404dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+                android:id="@+id/tr1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+            <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_margin="2.5pt"
+                    android:background="@color/gray"
+                    android:fontFamily="@font/aclonica"
+                    android:onClick="btnSelect"
+                    android:textSize="56sp"
+                    android:textStyle="normal"/>
+
+            <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_margin="2.5pt"
+                    android:background="@color/gray"
+                    android:fontFamily="@font/aclonica"
+                    android:onClick="btnSelect"
+                    android:textSize="56sp" />
+
+            <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_margin="2.5pt"
+                    android:background="@color/gray"
+                    android:fontFamily="@font/aclonica"
+                    android:onClick="btnSelect"
+                    android:textSize="56sp" />
+
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/tr2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+            <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_margin="2.5pt"
+                    android:background="@color/gray"
+                    android:fontFamily="@font/aclonica"
+                    android:onClick="btnSelect"
+                    android:textSize="56sp" />
+
+            <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_margin="2.5pt"
+                    android:background="@color/gray"
+                    android:fontFamily="@font/aclonica"
+                    android:onClick="btnSelect"
+                    android:textSize="56sp" />
+
+            <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_margin="2.5pt"
+                    android:background="@color/gray"
+                    android:fontFamily="@font/aclonica"
+                    android:onClick="btnSelect"
+                    android:textSize="56sp" />
+        </TableRow>
+
+        <TableRow
+                android:id="@+id/tr3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+            <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_margin="2.5pt"
+                    android:background="@color/gray"
+                    android:fontFamily="@font/aclonica"
+                    android:onClick="btnSelect"
+                    android:textSize="56sp" />
+
+            <Button
+                    android:id="@+id/btn8"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_margin="2.5pt"
+                    android:background="@color/gray"
+                    android:fontFamily="@font/aclonica"
+                    android:onClick="btnSelect"
+                    android:textSize="56sp" />
+
+            <Button
+                    android:id="@+id/btn9"
+                    android:layout_width="40pt"
+                    android:layout_height="40pt"
+                    android:layout_margin="2.5pt"
+                    android:background="@color/gray"
+                    android:fontFamily="@font/aclonica"
+                    android:onClick="btnSelect"
+                    android:textSize="56sp" />
+
+        </TableRow>
+
+        <Button
+                android:id="@+id/res"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="8dp"
+                android:background="@color/colorAccent"
+                android:fontFamily="@font/aclonica"
+                android:onClick="btnSelect"
+                android:text="RESET"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/table" />
+
+
+    </TableLayout>
+
+    <include
+            android:id="@+id/playerSelectLayout"
+            layout="@layout/gamemode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+    <include
+            android:id="@+id/pauseGameLayout"
+            layout="@layout/pause"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+    <include
+            android:id="@+id/wldLayout"
+            layout="@layout/wld"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+</android.support.constraint.ConstraintLayout>
